@@ -13,4 +13,35 @@
         android:textSize="30sp"
         android:textColor="@color/brown"/>
 
+    <LinearLayout
+        android:id="@+id/search_bar_main"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center|top"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/search_btn_background"
+        android:elevation="4dp"
+        >
+        <EditText
+            android:id="@+id/input_text_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:hint="게시글 검색"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/transparent"
+            />
+    </LinearLayout>
+
 </FrameLayout>

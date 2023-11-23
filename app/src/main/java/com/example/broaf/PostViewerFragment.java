@@ -19,7 +19,7 @@ public class PostViewerFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_post_viewer, container, false);
 
 
-/*근데 뭔가 안 돼서 일단 주석 걸어둠
+/*
         //post viewer frag 닫기
         Button btn_close_viewer=(Button) getView().findViewById(R.id.btn_close_viewer);
         btn_close_viewer.setOnClickListener(new View.OnClickListener() {
